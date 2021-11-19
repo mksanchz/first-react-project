@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/first-react-project/static/css/main.182f3d1b.chunk.css",
+    "main.js": "/first-react-project/static/js/main.189f278e.chunk.js",
+    "main.js.map": "/first-react-project/static/js/main.189f278e.chunk.js.map",
+    "runtime-main.js": "/first-react-project/static/js/runtime-main.142fce0c.js",
+    "runtime-main.js.map": "/first-react-project/static/js/runtime-main.142fce0c.js.map",
+    "static/js/2.ac43b8bf.chunk.js": "/first-react-project/static/js/2.ac43b8bf.chunk.js",
+    "static/js/2.ac43b8bf.chunk.js.map": "/first-react-project/static/js/2.ac43b8bf.chunk.js.map",
+    "index.html": "/first-react-project/index.html",
+    "static/css/main.182f3d1b.chunk.css.map": "/first-react-project/static/css/main.182f3d1b.chunk.css.map",
+    "static/js/2.ac43b8bf.chunk.js.LICENSE.txt": "/first-react-project/static/js/2.ac43b8bf.chunk.js.LICENSE.txt",
+    "static/media/check.fa4fb594.svg": "/first-react-project/static/media/check.fa4fb594.svg",
+    "static/media/delete.331149da.svg": "/first-react-project/static/media/delete.331149da.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.142fce0c.js",
+    "static/js/2.ac43b8bf.chunk.js",
+    "static/css/main.182f3d1b.chunk.css",
+    "static/js/main.189f278e.chunk.js"
+  ]
+}
