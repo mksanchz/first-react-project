@@ -12,6 +12,7 @@ import {TodoCounter} from "./TodoCounter";
 import {TodoSearch} from "./TodoSearch";
 import {useTodos} from "./useTodos";
 import {EmptySearchTodos} from "./EmptySearchTodos";
+import {ChangeAlertWithStorageListener} from "./ChangeAlert";
 
 function App() {
     const {
@@ -26,7 +27,8 @@ function App() {
         totalTodos,
         completedTodos,
         searchValue,
-        setSearchValue
+        setSearchValue,
+        synchronizeTodos,
     } = useTodos();
 
     return (
@@ -72,6 +74,7 @@ function App() {
                     <TodoForm addTodo={addTodo} setOpenModal={setOpenModal}/>
                 </Modal>
             )}
+            <ChangeAlertWithStorageListener synchronize={synchronizeTodos}/>
             <CreateTodoButton
                 openModal={openModal}
                 setOpenModal={setOpenModal}/>

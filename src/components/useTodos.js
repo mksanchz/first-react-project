@@ -7,6 +7,7 @@ function useTodos() {
         saveItem: saveTodos,
         loading,
         error,
+        synchronizeItem: synchronizeTodos,
     } = useLocalStorage('TODOS_V1', []);
     const [searchValue, setSearchValue] = React.useState('');
     const [openModal, setOpenModal] = React.useState(false);
@@ -61,7 +62,8 @@ function useTodos() {
         completeTodo,
         deleteTodo,
         openModal,
-        setOpenModal
+        setOpenModal,
+        synchronizeTodos,
     };
 }
 
