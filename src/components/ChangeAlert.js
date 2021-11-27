@@ -1,10 +1,14 @@
 import React from "react";
-import {withStorageListener} from "./withStorageListener";
 import "../css/SyncronizeModal.css";
 import ReactDOM from "react-dom";
+import {useStorageListener} from "./useStorageListener";
 
+function ChangeAlert({synchronize}) {
+    const {
+        show,
+        toggleShow,
+    } = useStorageListener(synchronize);
 
-function ChangeAlert({show, toggleShow}) {
     if (show) {
         return ReactDOM.createPortal(
             <div className="ModalBackground">
@@ -20,6 +24,4 @@ function ChangeAlert({show, toggleShow}) {
     }
 }
 
-const ChangeAlertWithStorageListener = withStorageListener(ChangeAlert);
-
-export {ChangeAlertWithStorageListener};
+export {ChangeAlert};
